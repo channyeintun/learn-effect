@@ -1,0 +1,43 @@
+{
+  "name": "learn-effect",
+  "version": "1.0.0",
+  "description": "A hands-on, fully type-checked curriculum for learning Effect (TypeScript)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check": "tsc --noEmit",
+    "lab": "tsx",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "verify": "npm run check && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/channyeintun/learn-effect.git"
+  },
+  "keywords": [
+    "effect",
+    "effect-ts",
+    "typescript",
+    "functional-programming",
+    "course",
+    "curriculum"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/channyeintun/learn-effect/issues"
+  },
+  "homepage": "https://github.com/channyeintun/learn-effect#readme",
+  "dependencies": {
+    "@effect/platform": "^0.97.0",
+    "@effect/platform-node": "^0.108.0",
+    "effect": "^3.22.0"
+  },
+  "devDependencies": {
+    "@effect/vitest": "^0.30.0",
+    "@types/node": "^26.1.2",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}
